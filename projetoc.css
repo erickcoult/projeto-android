@@ -34,14 +34,14 @@ h2{
     font-family: var(--fonte-android);
     font-size: 20px;
     color: #012030;
-    background-image: linear-gradient(to right, var(--cor3), transparent);                    /*novo*/
+    background-image: linear-gradient(to right, var(--cor3), transparent);                    /*novo: degradê*/
 }
 
 header{
     background-color: var(--cor1);
     font-family: var(--fonte-android);
     color: whitesmoke;
-    min-height: 150px;                                                                      /*novo*/  
+    min-height: 150px;                                                                      /*novo: altura mínima*/  
     text-align: center;
     padding-top: 40px;
 }
@@ -75,8 +75,10 @@ nav > a:hover{
 }
 
 main{
-    min-width: 300px;                                                    /*importante*/
+    min-width: 200px;                                                    /*importante*/
     max-width: 1000px;
+    min-height: 200px;
+    max-height: 1000px;
     margin: auto;
     color: var(--cor2);
     font-family: Arial, Helvetica, sans-serif;
