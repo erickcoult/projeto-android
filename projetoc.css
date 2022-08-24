@@ -4,10 +4,12 @@
     margin: 0px;
     padding: 0px;
 }
+
 @font-face {
     font-family: 'Android';
     src: url(./fontes/idroid.otf) format('opentype');
     font-weight: normal;
+    
 }
 :root {
     --cor1: #012030;
@@ -26,34 +28,25 @@ body{
 p{
     margin: 15px 0px;
 }
-h1{
-    font-family: var(--fonte-android);
-    font-size: 30px;
-}
-h2{
-    font-family: var(--fonte-android);
-    font-size: 20px;
-    color: #012030;
-    background-image: linear-gradient(to right, var(--cor3), transparent);                    /*novo: degradê*/
-}
 
 header{
     background-color: var(--cor1);
-    font-family: var(--fonte-android);
     color: whitesmoke;
     min-height: 150px;                                                                      /*novo: altura mínima*/  
     text-align: center;
     padding-top: 40px;
 }
 header > p{
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    height: auto;
     text-align: center;
+    font-family: 'Poiret One', cursive;
 }
-header h1{
+header > h1{
     margin-bottom: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
+    font-size: 2em;
+    height: auto;
+    font-family: 'Bangers', cursive;
     text-shadow: 3px 5px 10px black;
 }
 
@@ -66,12 +59,13 @@ nav > a{
     text-decoration: none;
     color: white;
     font-size: 14px;
-    transition-duration: 0.5s;                                              /*novo*/
-    padding: 10px;
+    transition-duration: 0.3s;                                              /*novo*/
+    padding: 2px;
 }
 nav > a:hover{
     background-color: var(--cor3);
-    color: white
+    color: white;
+    padding: 6px;
 }
 
 main{
@@ -98,6 +92,14 @@ main a{
 }
 main h1{
     color: #012030;
+    font-family: var(--fonte-android);
+    font-size: 30px;
+}
+main h2{
+    font-family: var(--fonte-android);
+    font-size: 20px;
+    color: #012030;
+    background-image: linear-gradient(to right, var(--cor3), transparent);                    /*novo: degradê*/
 }
 
 aside{
