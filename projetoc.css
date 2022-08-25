@@ -13,8 +13,8 @@
     
 }
 :root {
-    --cor1: #012030;
-    --cor2: #13678A;
+    --cor1: #012030f3;
+    --cor2: #13668acd;
     --cor3: #45C4B0;
     --cor4: #90eb9b;
     --cor5: #DAFDBA;
@@ -29,6 +29,10 @@ body{
 p{
     margin: 15px 0px;
 }
+
+/*==============================================
+HEADER
+===========================================*/
 
 header{
     background-color: var(--cor1);
@@ -51,6 +55,10 @@ header > h1{
     text-shadow: 3px 5px 10px black;
 }
 
+/*==============================================
+NAV
+===========================================*/
+
 nav{
     background-color: var(--cor2);
     padding: 10px;
@@ -68,6 +76,10 @@ nav > a:hover{
     color: white;
     padding: 6px;
 }
+
+/*==============================================
+MAIN
+===========================================*/
 
 main{
     min-width: 300px;                                                    /*importante*/
@@ -96,6 +108,7 @@ main h1{
     color: #012030;
     font-family: var(--fonte-android);
     font-size: 30px;
+    text-align: center;
 }
 main h2{
     font-family: var(--fonte-android);
@@ -103,6 +116,10 @@ main h2{
     color: #012030;
     background-image: linear-gradient(to right, var(--cor3), transparent);                    /*novo: degradê*/
 }
+
+/*==============================================
+ASAIDE
+===========================================*/
 
 aside{
     background-color: var(--cor4);
@@ -121,6 +138,11 @@ aside > ul{
     list-style-type: '\2714\00a0';
     columns: 2;                                                             /*novo*/
 }
+
+/*==============================================
+FOOTER
+===========================================*/
+
 footer{
     background-color: var(--cor3);
     border-radius: 6px;
@@ -138,6 +160,10 @@ footer a:hover{
     text-decoration: underline;
     color: rgba(255, 255, 255, 0.751);
 }
+
+/*==============================================
+CLASS/ID
+===========================================*/
 
 .bug-pequeno{
     max-width: 400px;
