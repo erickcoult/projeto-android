@@ -4,8 +4,7 @@
     margin: 0px;
     padding: 0px;
 }
-
-@font-face {
+@font-face {  /*font baixada*/
     font-family: 'Android';
     src: url(./fontes/idroid.otf) format('opentype');
     font-weight: normal;
@@ -108,7 +107,7 @@ main h1{
     color: #012030;
     font-family: var(--fonte-android);
     font-size: 30px;
-    text-align: center;
+    text-align: justify;
 }
 main h2{
     font-family: var(--fonte-android);
@@ -184,4 +183,14 @@ CLASS/ID
     bottom: 5%;
     width: 90%;
     height: 90%;
+}
+@media (max-width: 700px) {
+    main h1{
+        font-size: 90%;
+    }
+}
+@media (max-width: 700px) {
+    main h2{
+        font-size: 70%;
+    }
 }
