@@ -24,9 +24,6 @@ body{
     background-color: var(--cor5);
     text-align: justify;
 }
-p{
-    margin: 15px 0px;
-}
 
 /*==============================================
 HEADER
@@ -37,9 +34,8 @@ header{
     color: whitesmoke;
     min-height: 150px;                                                              /*novo: altura mínima*/
     text-align: center;
-    padding-top: 40px;
 }
-header > p{
+/*header > p{
     font-size: 20px;
     height: auto;
     
@@ -52,8 +48,10 @@ header > h1{
     height: auto;
     font-family: 'Bangers', cursive;
     text-shadow: 3px 5px 10px black;
+}*/
+header img{
+    max-width: 19vw;
 }
-
 /*==============================================
 NAV
 ===========================================*/
